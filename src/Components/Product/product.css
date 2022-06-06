@@ -1,0 +1,301 @@
+
+.produtos{
+    width: 300px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #E0E0E0;
+    margin: auto;
+}
+
+.imgProduto{
+    width: 300px;
+    height: 150px;
+    background: #F5F5F5;
+}
+
+.imgProduto img {
+    width: 177px;
+    height: 177px;
+}
+
+.produtos h1{
+    width: 200px;    
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 21px;
+    margin-top: 20px;
+}
+
+.produtos span{
+    width: 150px;
+    height: 20px;
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 21px;
+    color: #828282;
+    margin-top: 5px;
+}
+.produtos p{
+    width: 150px;
+    height: 18px;
+    margin-left: 21px;
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #27AE60;
+    margin-top: 10px;
+}
+
+.botaoAdicionar button{
+    background: #27AE60;
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    width: 106px;
+    height: 40px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 31px;
+    margin: auto 21px;
+}
+.botaoAdicionar{
+    display: flex;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+
+.produtosCarrinho{
+    display: flex;
+    width: 343px;
+    height: 80px;
+    background-color: rgb(239, 239, 239);
+    margin-bottom: 20px;
+}
+
+.imgProdutoCarrinho img{
+    margin: auto;
+    background-color: #E0E0E0;
+    border: 2px solid #E0E0E0;
+    width: 70px;
+    height: 72px;
+}
+
+.nomeEDescricao h1{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+.nomeEDescricao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.nomeEDescricao span{
+    text-align: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.botaoRemoverCarrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BDBDBD;
+    margin-left: 60px;
+}
+
+.botaoRemoverCarrinho button{
+    border: none;
+    width: 90px;
+}
+
+
+@media screen and (max-width: 414px) {
+
+    .produtos{
+        width: 300px;
+        height: 346px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid #E0E0E0;
+    }
+    
+    .imgProduto{
+        width: 300px;
+        height: 150px;
+        background: #F5F5F5;
+    }
+
+    .imgProduto img {
+        width: 177px;
+        height: 177px;
+    }
+    
+    .produtos h1{
+        width: 200px;    
+        text-align: start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 21px;
+        margin-top: 20px;
+    }
+    
+    .produtos span{
+        width: 150px;
+        height: 20px;
+        text-align: start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 21px;
+        color: #828282;
+        margin-top: 5px;
+    }
+    .produtos p{
+        width: 150px;
+        height: 18px;
+        margin-left: 21px;
+        text-align: start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #27AE60;
+        margin-top: 10px;
+    }
+
+    .botaoAdicionar button{
+        background: #27AE60;
+        border: 2px solid #27AE60;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        width: 106px;
+        height: 40px;
+        color: white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 31px;
+        margin: auto 21px;
+    }
+    .botaoAdicionar{
+        display: flex;
+        height: 40px;
+        margin-top: 20px;        
+        margin-bottom: 23px;
+    }
+    .produtosCarrinho{
+        background-color: rgb(239, 239, 239);
+        display: flex;
+        width: 343px;
+        height: 80px;
+    }
+    
+    .imgProdutoCarrinho img{
+        background-color: #E0E0E0;
+        border: 2px solid #E0E0E0;
+        width: 70px;
+        height: 70px;
+    }
+
+    .nomeEDescricao h1{
+        margin: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .nomeEDescricao{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .nomeEDescricao span{
+        text-align: start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #828282;
+    }
+    .nomeEDescricao h1{
+        margin: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .botaoRemoverCarrinho{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        border: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #BDBDBD;
+        margin-left: 60px;
+    }
+    
+    .botaoRemoverCarrinho button{
+        border: none;
+        width: 90px;
+    }
+
+}

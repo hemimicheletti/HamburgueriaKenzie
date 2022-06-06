@@ -1,0 +1,23 @@
+.ulProductList{    
+    position:relative;
+    width: 940px;
+    height: 735px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+    .ulProductList{
+        position:relative;
+        width: 800px;
+        height: 361px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        flex-wrap: nowrap;
+        margin-left: 0;        
+    }
+}
